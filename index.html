@@ -1,5 +1,14 @@
 <!DOCTYPE html>
+<!-- 
+    Semantica:
+    section: representa uma seção genérica de conteúdos, tipo uma lista de artigos
+    header: cabeçalho de uma página ou de parte, pode ser de uma section
+    article: conteúdo relevante. artigo de um blog, por exemplo
+    aside: conteúdo relacionado com o conteúdo principal da página, tipo biografia ou links relacionados (representados por barra lateral)
+    footer: rodapé da página ou de parte da página (um dos outros exemplos acima)
+    h1/h6 (já vinha antes do html5): títulos
 
+-->
 <html>
 
     <head>
@@ -8,7 +17,20 @@
     </head>
 
     <body>
-        Artur
+        <header>
+            <h1>Artur Silva</h1>
+        </header>
+        <section>
+            <header>
+                <h2>Posts</h2>
+            </header>
+            <article>
+                <header>
+                    <h3>Post #1</h3>
+                </header>
+            </article>
+        </section>
+        <footer></footer>
     </body>
 
 </html>
